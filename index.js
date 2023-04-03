@@ -30,4 +30,4 @@ app.get('/respond', async (req,res) => {
       res.json(response.data.choices[0].text)
 })
 
-app.listen(8000, () => console.log('Server is running on ${PORT}'))
+app.listen(8000, () => console.log(`Server is running on ${PORT}`))
